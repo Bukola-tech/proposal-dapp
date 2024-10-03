@@ -4,6 +4,7 @@ import useVoteProposal from "../hooks/useVote";
 
 
 const Proposal = ({
+    proposalId,
     description,
     amount,
     minRequiredVote,
